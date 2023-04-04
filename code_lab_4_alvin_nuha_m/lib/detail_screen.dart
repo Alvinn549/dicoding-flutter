@@ -163,10 +163,8 @@ class _DetailWebPageState extends State<DetailWebPage> {
   @override
   Widget build(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;
-    // const bool kIsWeb = true;
 
     return Scaffold(
-      // appBar: kIsWeb ? null : AppBar(),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.symmetric(
